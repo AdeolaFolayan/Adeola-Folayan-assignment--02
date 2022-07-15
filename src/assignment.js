@@ -63,11 +63,10 @@ function countEvenNumbers(arrayOfNumbers) {
 function celsiusToFahrenheit(arrayOfNumbers) {
   let Fahrenheit;
    for (let i= 0; i < arrayOfNumbers.lenght; i++) {
-    celsiusToFahrenheit = arrayOfNumbers [i]* 1.8 +32;
+    celsiusToFahrenheit = arrayOfNumbers [i] * 1.8 +32;
      console.log(Fahrenheit) 
    }
     return celsiusToFahrenheit;
-  //  return arrayOfNumbers.lenght 
 }
  assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
