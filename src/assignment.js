@@ -61,8 +61,8 @@ function countEvenNumbers(arrayOfNumbers) {
  * @returns Array the converted temperatures in Fahrenheit
  */
 function celsiusToFahrenheit(arrayOfNumbers) {
-  let Fahrenheit;
-   for (let i= 0; i < arrayOfNumbers.lenght; i++) {
+  let Fahrenheit=0;
+   for (i= 0; i< arrayOfNumbers.lenght; i++) {
     celsiusToFahrenheit = arrayOfNumbers [i] * 1.8 +32;
      console.log(Fahrenheit) 
    }
