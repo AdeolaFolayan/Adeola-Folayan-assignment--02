@@ -40,7 +40,7 @@ function countEvenNumbers(arrayOfNumbers) {
     }
   }
   return noOfEvenNumbers
-   //  return arrayOfNumbers.lenght;
+   //   return arrayOfNumbers.lenght;
 }
    assignment.countEvenNumbers = countEvenNumbers;
 
